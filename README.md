@@ -1,11 +1,11 @@
-### Notitaion
+# Notaion
 We have changed our name of this project to FEditor, replacing CubePack.
 
-# CubePack
-CubePack is an efficient and accurate online placement slover for heterogenous FPGA and multitasks.
+# FEditor
+FEditor is an efficient and accurate online placement slover for heterogenous FPGA and multitasks.
 
 ## Main Idea
-It is mainly based on the 2D discrete diagrams rather than 3D model. And it accelerates heuristice algorithms. Also for multitasks, CubePack introduce Game Theory to help. The cooresping paper is available at: .
+It is mainly based on the 2D discrete diagrams rather than 3D model. And it accelerates heuristice algorithms. Also for multitasks, FEditor introduce Game Theory to help. The cooresping paper is available at: .
 
 ## Config
 All config files obeys "key:value" format while each parameter occupies a line.
@@ -14,7 +14,7 @@ All config files obeys "key:value" format while each parameter occupies a line.
 - opt: choose the optimizer type
 - metric: choose the metric type within ABC, AB,AC,BC,A,B,C
 - alpha, beta, gamma: hyperparameters for weight
-- mode: only get- lcp, lcpp -- list-CubePack, list-CubePack-parallel(cpm resreved)
+- mode: only get- lcp, lcpp -- list-FEditor, list-FEditor-parallel(cpm resreved)
 - select: how many for lcpp
 - relaxation: time relaxation
 - search_iter: only for multiple tasks, defining how many NEs will be searched.
